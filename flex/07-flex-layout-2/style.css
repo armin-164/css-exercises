@@ -8,21 +8,54 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 32px;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
+  width: 300px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.cardcontainer {
+  display: flex;
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+a, ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
 }
