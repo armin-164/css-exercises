@@ -9,7 +9,7 @@ body, html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 350px 850px;
+  grid-template-columns: 350px 875px;
   grid-template-rows: 100px 100px 400px 100px;
   gap: 15px;
 }
